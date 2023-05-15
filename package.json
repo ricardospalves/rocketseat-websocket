@@ -1,0 +1,18 @@
+{
+  "name": "rocketseat-websocket",
+  "version": "0.0.1",
+  "description": "**Implementando WebSockets no Node.Js - Code/drops #99** da [videoaula](https://www.youtube.com/watch?v=xEpE7DSOvVw&ab_channel=Rocketseat) do [@Rocketseat](https://github.com/Rocketseat).",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
+    "build": "tsc",
+    "start": "node build/app.js"
+  },
+  "keywords": [],
+  "author": "Ricardo Alves <ricardospalves@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  }
+}
