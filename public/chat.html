@@ -11,20 +11,19 @@
     <a href="/">Sair</a>
   </p>
 
-  <p>
-    Olá, {{name}} - {{room}}
-  </p>
+  <h1>
+    Olá, {{username}} - {{room}}
+  </h1>
 
-  <ul>
-    <li>
-      <b>{{name}}</b>: {{content}} - {{datetime}}
-    </li>
-  </ul>
+  <ul></ul>
 
   <form action="">
     <label for="message">Escreva sua mensagem:</label>
     <textarea name="message" id="message" required></textarea>
     <button>Enviar</button>
   </form>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="./chat.js"></script>
 </body>
 </html>

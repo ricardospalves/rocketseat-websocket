@@ -1,3 +1,8 @@
-const appName: string = 'Chat'
+import { httpServer } from './http'
+import "./websocket"
 
-console.log(appName)
+const PORT = 3000
+
+httpServer.listen(PORT, () => {
+  console.log(`🚀 server running on port http://localhost:${PORT}`)
+})
